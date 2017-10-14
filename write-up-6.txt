@@ -1,0 +1,26 @@
+1. Value yang dihasilkan oleh iterationStatus adalah penomoran ganjil
+untuk data students
+
+2. condition didalam th:unless sama dengan th:if karena makna dari th:unless
+adalah kecuali. sehingga, 'Sangat Memuaskan' akan berlaku untuk semua gpa kecuali 
+gpa yang >=3.49. 
+
+3. Terjadi error, karena makna kondisi if dan unless menjadi sama, namun diminta untuk 
+menampilkan hasil yang berbeda. kondisi if meminta jika gpa >= 3.49 muncul tulisan 
+Cum Laude, sedangkan kondisi unless meminta jika gpa >= 3.49 muncul tulisan
+Sangat Memuaskan.
+
+4. Cara lain untuk menghasilkan hasil seperti di atas adalah:
+<h3 th:text="${student.gpa>=3.49} ? 'Cum Laude' : 'Sangat Memuaskan'"></h3>
+Jika ekspresi tersebut bernilai true, maka 'Cum Laude' akan ditampilkan.
+Jika ekspresi tersebut bernilai false, maka 'Sangat Memuaskan' akan ditampilkan. 
+
+5. Maksud dari baris kode tersebut adalah baris kode tersebut meretrieve file 
+fragment yang ada pada folder fragments dan mencari bagian fragment yang dimaksud yaitu 
+header dan footer untuk ditampilkan di index.html
+
+6. Tidak berlaku. 
+
+Lesson Learned:
+Pada tutorial ini, saya belajar menggunakan static file di Spring Boot,
+membuat halaman error, dan menggunakan fragment
