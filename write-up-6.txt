@@ -19,7 +19,7 @@ Jika ekspresi tersebut bernilai false, maka 'Sangat Memuaskan' akan ditampilkan.
 fragment yang ada pada folder fragments dan mencari bagian fragment yang dimaksud yaitu 
 header dan footer untuk ditampilkan di index.html
 
-6. Tidak berlaku. 
+6. Berlaku, dengan mengganti nama file menjadi "500.html"
 
 Lesson Learned:
 Pada tutorial ini, saya belajar menggunakan static file di Spring Boot,
