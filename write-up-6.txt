@@ -1,5 +1,5 @@
-1. Value yang dihasilkan oleh iterationStatus adalah penomoran ganjil
-untuk data students
+1. Value yang dihasilkan oleh iterationStatus adalah nilai true 
+untuk data bernomor urut ganjil dan nilai false untuk data bernomor urut genap
 
 2. condition didalam th:unless sama dengan th:if karena makna dari th:unless
 adalah kecuali. sehingga, 'Sangat Memuaskan' akan berlaku untuk semua gpa kecuali 
